@@ -1,0 +1,108 @@
+===
+One node
+===
+
+[node_name]
+
+---
+
+(source_file
+	(item
+		(node
+			(name))))
+
+===
+Two nodes
+===
+
+[node_name0]
+[node_name1]
+
+---
+
+(source_file
+	(item
+		(node
+			(name)))
+	(item
+		(node
+			(name))))
+
+===
+Node with key-only attribute
+===
+
+[node_name](key)
+
+---
+
+(source_file
+	(item
+		(node
+			(name))
+		(attribute
+			(key))))
+
+===
+Node with attribute
+===
+
+[node_name](key:value)
+
+---
+
+(source_file
+	(item
+		(node
+			(name))
+		(attribute
+			(key)
+			(value))))
+
+===
+Node with 2 attributes
+===
+
+[node_name](key0:value0)(key1:value1)
+
+---
+
+(source_file
+	(item
+		(node
+			(name))
+		(attribute
+			(key)
+			(value))
+		(attribute
+			(key)
+			(value))))
+
+===
+Node with empty body
+===
+
+[node_name]{}
+
+---
+
+(source_file
+	(item
+		(node
+			(name))))
+
+===
+Node with child
+===
+
+[node_name0]{[node_name01]}
+
+---
+
+(source_file
+	(item
+		(node
+			(name))
+		(item
+			(node
+				(name)))))

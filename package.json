@@ -1,0 +1,30 @@
+{
+  "name": "tree-sitter-naft",
+  "version": "1.0.0",
+  "description": "Tree-sitter grammar for NAFT",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Geert Fannes",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfannes/tree-sitter-naft.git"
+  },
+  "keywords": [
+    "tree-sitter",
+    "naft",
+    "grammar"
+  ],
+  "bugs": {
+    "url": "https://github.com/gfannes/tree-sitter-naft/issues"
+  },
+  "homepage": "https://github.com/gfannes/tree-sitter-naft#readme",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  }
+}
